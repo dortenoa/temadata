@@ -1,0 +1,107 @@
+{
+	"products" : [
+		{
+			"name" : "Wonky Ground",
+			"price" : "200",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" },
+				{ "Color" : "Hvid" }
+			],
+			"image" : "images/ground.png",
+			"description" : "Cool T-shirt med brun design"
+		},
+		{
+			"name" : "Wonky Happy",
+			"price" : "200",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" },
+				{ "Color" : "Hvid" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "images/happy.png",
+			"description" : "Cool T-shirt med Wonkys eget profil design"
+		},
+		{
+			"name" : "Wonky Fresh",
+			"price" : "200",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" },
+				{ "Color" : "Hvid" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "images/fresh.png",
+			"description" : "Glad farverigt design"
+		},
+		{
+			"name" : "Wonky Turkis",
+			"price" : "200",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" },
+				{ "Color" : "Hvid" },
+			    { "OneOfAKind" : true }
+			],
+			"image" : "images/turkis.png",
+			"description" : "Cool T-shirt med turkis design"
+		},
+		{
+			"name" : "Wonky Color",
+			"price" : "200",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" },
+				{ "Color" : "Hvid" }
+			],
+			"image" : "images/color.png",
+			"description" : "Colorful T-shirt design"
+		},
+		{
+			"name" : "Wonky Pink",
+			"price" : "200",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" },
+				{ "Color" : "Hvid" }
+			],
+			"image" : "images/pink.png",
+			"description" : "Cool T-shirt i pink design"
+		},
+		{
+			"name" : "Wonky Blue",
+			"price" : "200",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" },
+				{ "Color" : "Hvid" }
+			],
+			"image" : "images/blue.png",
+			"description" : "Cool gun T-shirt i blåt design"
+		},
+		{
+			"name" : "Wonky Orange Gun",
+			"price" : "175",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" },
+				{ "Color" : "Hvid" }
+			],
+			"image" : "images/gunorange.png",
+			"description" : "Cool gun T-shirt  i orange design"
+		},
+		{
+			"name" : "Wonky Blue Gun",
+			"price" : "175",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" },
+				{ "Color" : "Hvid" }
+			],
+			"image" : "images/gunblue.png",
+			"description" : "Cool gun T-shirt i blåt design"
+		},
+		{
+			"name" : "Wonky Beach",
+			"price" : "175",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" },
+				{ "Color" : "Hvid" }
+			],
+			"image" : "images/beach.png",
+			"description" : "Cool T-shirt med beach design"
+		}
+	]
+}
