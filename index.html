@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Designer T-shirts</title>
+    <meta name="description" content="A clean, responsive storefront boilerplate with no database or backend">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/imports.min.css">
+    <link rel="stylesheet" href="css/simpleStore.min.css">
+    <link rel="stylesheet" href="css/customcss.css">
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+
+</head>
+<body>
+
+<!--  <div class="modalmaster" id="modal1">
+    <div class="modalcontent">
+      <img src="images/tshirt.png" alt="">
+    </div>
+  </div>
+
+  <div class="modalmaster" id="modal2">
+    <div class="modalcontent">
+      <img src="images/tshirt.png" alt="">
+    </div>
+  </div>
+
+  <div class="modalmaster" id="modal3">
+    <div class="modalcontent">
+      <img src="images/tshirt.png" alt="">
+    </div>
+  </div>
+
+-->
+<div onclick="closeMe()"id="slideshow-wrapz" class="slideshow-wrapper">
+  <div onclick="closeMe()"id="slideshow-wrapz1" class="closeoverlay">
+  </div>
+<div class="slideshow-container">
+
+  <div onclick="closeMe2()"id="slideshow-wrapz2" class="zoomout">
+<img src="images/close.png" alt="">
+  </div>
+
+<div class="mySlides fade">
+  <img class="slidepicture" src="images/happy.png">
+  <div class="text">Wonky Happy</div>
+</div>
+
+<div class="mySlides fade">
+  <img class="slidepicture" src="images/fresh.png">
+  <div class="text">Wonky Fresh</div>
+</div>
+
+<div class="mySlides fade">
+  <img class="slidepicture" src="images/ground.png">
+  <div class="text">Wonky Ground</div>
+</div>
+
+<div class="mySlides fade">
+  <img class="slidepicture" src="images/pink.png">
+  <div class="text">Wonky Pink</div>
+</div>
+
+<div class="mySlides fade">
+  <img class="slidepicture" src="images/color.png">
+  <div class="text">Wonky Color</div>
+</div>
+
+<div class="mySlides fade">
+  <img class="slidepicture" src="images/blue.png">
+  <div class="text">Wonky Blur</div>
+</div>
+
+<div class="mySlides fade">
+  <img class="slidepicture" src="images/turkis.png">
+  <div class="text">Wonky Turkis</div>
+</div>
+
+<div class="mySlides fade">
+  <img class="slidepicture" src="images/gunblue.png">
+  <div class="text">Wonky Blue Gun</div>
+</div>
+
+<div class="mySlides fade">
+  <img class="slidepicture" src="images/gunorange.png">
+  <div class="text">Wonky Orange Gun</div>
+</div>
+
+<div class="mySlides fade">
+  <img class="slidepicture" src="images/beach.png">
+  <div class="text">Wonky Beach</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+</div>
+
+</div>
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+    <!-- Primary Page Layout
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container simpleStore">
+        <div class="row">
+          <div onclick="openMe2()" id="clickopen2" class="getinspired">
+            <span>Se T-Shirts i fuld størrelse</span>
+          </div>
+            <a class="brand" href="#"></a>
+            <div onclick="openMe()" id="clickopen" class="closerlook">
+              <img src="images/zoom.png" alt="">
+            </div>
+            <a class="button button-primary u-pull-right simpleStore_viewCart">
+                <i class="fa fa-shopping-cart"></i> Kurv <span class="simpleCart_total"></span>
+            </a>
+        </div>
+        <div class="simpleStore_container"></div>
+        <div class="simpleStore_cart_container"></div>
+    </div>
+
+    <!-- Templates
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <!-- Products View -->
+    <script id="products-template" type="x-template">
+        <div class="column">
+            <div class="simpleCart_shelfItem">
+                <img src="" class="item_thumb"/>
+                <div class="row">
+                    <h5 class="item_name"></h5>
+                    <div class="simpleStore_getDetail_container">
+                        <span class="item_price"></span>
+                    </div>
+                    <div class="simpleStore_getDetail_container">
+                        <a class="button u-pull-right simpleStore_getDetail">Detaljer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <!-- Product Detail View -->
+    <script id="product-detail-template" type="x-template">
+        <div class="simpleCart_shelfItem simpleStore_detailView">
+            <a href="#" class="close view_close">&times;</a>
+
+            <div class="row">
+                <div class="four columns">
+                    <img src="" class="item_thumb"/>
+                </div>
+                <div class="eight columns">
+                    <h5 class="item_name"></h5>
+
+                    <p class="item_description"></p>
+                    <span class="item_price"></span>
+
+                    <div class="qty">
+                        <label>QTY</label>
+                        <input type="number" value="1" min="1" step="1" class="item_Quantity">
+                    </div>
+                    <div class="simpleStore_options"></div>
+                    <a class="item_add button u-pull-right" href="javascript:;">Put i kurv</a>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <!-- Cart View -->
+    <script id="cart-template" type="x-template">
+        <div class="simpleStore_cart">
+            <h2>Cart</h2>
+            <a href="#" class="close">&times;</a>
+
+            <div class="row">
+                <div class="eight columns">
+                    <div class="simpleCart_items"></div>
+                    <a href="javascript:;" class="simpleCart_empty u-pull-left">Empty Cart <i class="fa fa-trash-o"></i></a>
+                </div>
+                <div class="four columns">
+                    <div class="cart_info">
+                        <div class="cart_info_item cart_itemcount">Items:
+                            <div class="simpleCart_quantity"></div>
+                        </div>
+                        <div class="cart_info_item cart_taxrate">Moms i %:
+                            <div class="simpleCart_taxRate"></div>
+                        </div>
+                        <div class="cart_info_item cart_tax">Moms:
+                            <div class="simpleCart_tax"></div>
+                        </div>
+                        <div class="cart_info_item cart_shipping">Fragt:
+                            <div class="simpleCart_shipping"></div>
+                        </div>
+                        <div class="cart_info_item cart_total"><b>Total:
+                            <div class="simpleCart_grandTotal"></div>
+                        </b></div>
+                        <a href="javascript:;" class="button button-primary simpleStore_checkout u-pull-right">Til Betaling<i class="fa fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+
+    <!-- Error View -->
+    <script id="error-template" type="x-template">
+        <div class="error">
+            <b>Sorry, something went wrong :(</b>
+			<p class="error_text"></p>
+			<a href="#" class="close alert_close">&times;</a>
+        </div>
+    </script>
+
+<!-- End Document
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+<!-- Scripts
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/simpleCart.min.js"></script>
+<script src="js/simpleStore.min.js"></script>
+<script src="js/javascript.js"></script>
+
+<script src="js/config.js"></script>
+
+</html>
