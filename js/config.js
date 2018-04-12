@@ -42,7 +42,7 @@ $(function() {
 	    shippingCustom: null,
 
 	    // flat rate shipping option
-	    shippingFlatRate: 0,
+	    shippingFlatRate: 49,
 
 	    // added shipping based on this value multiplied by the cart quantity
 	    shippingQuantityRate: 0,
@@ -73,7 +73,7 @@ $(function() {
 	simpleStore.init({
 
 		// brand can be text or image URL
-		brand : "WONKY WEBSHOP",
+		brand : "WONKY",
 
 		// numder of products per row (accepts 1, 2 or 3)
 		numColumns : 3,
