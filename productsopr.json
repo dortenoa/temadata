@@ -2,7 +2,7 @@
 	"products" : [
 		{
 			"name" : "Wonky Cool Fun Tee",
-			"price" : "100",
+			"price" : "150",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" }
@@ -12,7 +12,7 @@
 		},
 		{
 			"name" : "Wonky Strong Life Tee",
-			"price" : "100",
+			"price" : "150",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" }
@@ -21,8 +21,8 @@
 			"description" : "Er du enig? - Without Passion life is nothing"
 		},
 		{
-			"name" : "Wonky Without Pink",
-			"price" : "100",
+			"name" : "Wonky Without Pink Tee",
+			"price" : "150",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" }
@@ -31,8 +31,8 @@
 			"description" : "Er du enig? - Without Passion life is nothing"
 		},
 		{
-			"name" : "Wonky Without Beige",
-			"price" : "100",
+			"name" : "Wonky Without Beige Tee",
+			"price" : "150",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" }
@@ -41,8 +41,8 @@
 			"description" : "Er du enig? - Without Passion life is nothing"
 		},
 		{
-			"name" : "Wonky Passion Pink",
-			"price" : "100",
+			"name" : "Wonky Passion Pink Tee",
+			"price" : "150",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" }
@@ -51,8 +51,8 @@
 			"description" : "Passions T-shirt med pink design"
 		},
 		{
-			"name" : "Wonky Passion Beige",
-			"price" : "100",
+			"name" : "Wonky Passion Beige Tee",
+			"price" : "150",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" }
@@ -60,9 +60,19 @@
 			"image" : "images/passionbeige.png",
 			"description" : "Passions T-shirt med beige design"
 		},
-				{
-			"name" : "Wonky Big heart",
-			"price" : "100",
+		{
+			"name" : "Wonky Passion heart Tee",
+			"price" : "150",
+			"options" : [
+				{ "Size" : "Small,Medium,Large" },
+				{ "Color" : "Hvid" }
+			],
+			"image" : "images/passionheart.png",
+			"description" : "Passions T-shirt med heart design"
+		},
+		{
+			"name" : "Wonky Big heart Tee",
+			"price" : "150",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" }
@@ -71,8 +81,8 @@
 			"description" : "Passions T-shirt med heart design"
 		},
 		{
-			"name" : "Wonky Big Heart Beach",
-			"price" : "100",
+			"name" : "Wonky Big Heart Beach Tee",
+			"price" : "150",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" }
@@ -81,8 +91,8 @@
 			"description" : "Passions T-shirt med heart design"
 		},
 		{
-			"name" : "Wonky Ground",
-			"price" : "100",
+			"name" : "Wonky Ground Tee",
+			"price" : "200",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" }
@@ -91,8 +101,8 @@
 			"description" : "Cool T-shirt med brun design"
 		},
 		{
-			"name" : "Wonky Happy",
-			"price" : "100",
+			"name" : "Wonky Happy Tee",
+			"price" : "200",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" },
@@ -102,8 +112,8 @@
 			"description" : "Cool T-shirt med Wonkys eget profil design"
 		},
 		{
-			"name" : "Wonky Fresh",
-			"price" : "100",
+			"name" : "Wonky Fresh Tee",
+			"price" : "200",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" },
@@ -113,8 +123,8 @@
 			"description" : "Glad farverigt design"
 		},
 		{
-			"name" : "Wonky Turkis",
-			"price" : "100",
+			"name" : "Wonky Turkis Tee",
+			"price" : "200",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" },
@@ -124,8 +134,8 @@
 			"description" : "Cool T-shirt med turkis design"
 		},
 		{
-			"name" : "Wonky Color",
-			"price" : "100",
+			"name" : "Wonky Color Tee",
+			"price" : "200",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" }
@@ -134,8 +144,8 @@
 			"description" : "Colorful T-shirt design"
 		},
 		{
-			"name" : "Wonky Pink",
-			"price" : "100",
+			"name" : "Wonky Pink Tee",
+			"price" : "200",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" }
@@ -144,8 +154,8 @@
 			"description" : "Cool T-shirt i pink design"
 		},
 		{
-			"name" : "Wonky Blue",
-			"price" : "100",
+			"name" : "Wonky Blue Tee",
+			"price" : "200",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" }
@@ -154,8 +164,8 @@
 			"description" : "Cool gun T-shirt i blåt design"
 		},
 		{
-			"name" : "Wonky Orange Gun",
-			"price" : "100",
+			"name" : "Wonky Orange Gun Tee",
+			"price" : "175",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" }
@@ -164,8 +174,8 @@
 			"description" : "Cool gun T-shirt  i orange design"
 		},
 		{
-			"name" : "Wonky Blue Gun",
-			"price" : "100",
+			"name" : "Wonky Blue Gun Tee",
+			"price" : "175",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" }
@@ -173,19 +183,9 @@
 			"image" : "images/gunblue.png",
 			"description" : "Cool gun T-shirt i blåt design"
 		},
-		{
-			"name" : "Wonky Beach",
-			"price" : "100",
-			"options" : [
-				{ "Size" : "Small,Medium,Large" },
-				{ "Color" : "Hvid" }
-			],
-			"image" : "images/beach.png",
-			"description" : "Cool T-shirt med beach design"
-		},
-		{
-			"name" : "Wonky Mask Beach",
-			"price" : "100",
+				{
+			"name" : "Wonky Mask Beach Tee",
+			"price" : "150",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" }
@@ -194,8 +194,8 @@
 			"description" : "Cool beach mask T-shirt i cool design"
 		},
 		{
-			"name" : "Wonky Mask",
-			"price" : "100",
+			"name" : "Wonky Mask Tee",
+			"price" : "150",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" }
@@ -204,8 +204,8 @@
 			"description" : "Cool mask T-shirt i fancy design"
 		},
 		{
-			"name" : "Wonky Monky Elefant",
-			"price" : "100",
+			"name" : "Wonky Monky Elefant Tee",
+			"price" : "175",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" }
@@ -214,8 +214,8 @@
 			"description" : "Kids monky elefant T-shirt i cool design"
 		},
 		{
-			"name" : "Wonky Animals",
-			"price" : "100",
+			"name" : "Wonky Animals Tee",
+			"price" : "200",
 			"options" : [
 				{ "Size" : "Small,Medium,Large" },
 				{ "Color" : "Hvid" }
